@@ -13,6 +13,9 @@
     "lint": "eslint --ext .ts,.js,.vue ."
   },
   "dependencies": {
+    "@bugsnag/js": "^7.0.0",
+    "@bugsnag/plugin-express": "^7.0.0",
+    "@bugsnag/plugin-vue": "^7.0.0",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
@@ -23,6 +26,7 @@
     "nuxt-property-decorator": "^2.5.1"
   },
   "devDependencies": {
+    "@intlify/vue-i18n-loader": "^1.0.0",
     "@nuxt/typescript-build": "^0.6.0",
     "@nuxtjs/eslint-config-typescript": "^1.0.2",
     "@vue/test-utils": "^1.0.0-beta.27",
